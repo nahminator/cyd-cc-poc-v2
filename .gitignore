@@ -1,0 +1,9 @@
+# Personal configuration — contains WiFi credentials and home coordinates
+flight_tracker/config.h
+
+# Ignore .claude since it has user name in the folder references
+.claude/
+CLAUDE.md
+.pio/
+
+

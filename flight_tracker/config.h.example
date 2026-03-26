@@ -1,0 +1,24 @@
+// Flight Tracker — personal configuration template
+//
+// 1. Copy this file to config.h  (same directory)
+// 2. Fill in your values below
+// 3. Never commit config.h — it is gitignored
+//
+// ─── WiFi ─────────────────────────────────────────────────────
+// The SSID and password of the network your CYD will connect to.
+#define WIFI_SSID     "your_wifi_network_name"
+#define WIFI_PASSWORD "your_wifi_password"
+
+// ─── dump1090 endpoint ────────────────────────────────────────
+// Local IP address of the machine running dump1090 (or dump1090-fa).
+// The path after the host is standard for both variants.
+#define API_URL       "http://192.168.x.x/dump1090/data/aircraft.json"
+
+// ─── Home position ────────────────────────────────────────────
+// The reference point used to calculate distance and bearing to aircraft.
+// Use decimal degrees; longitude is negative in the Western hemisphere.
+//
+// Easy way to find your coordinates:
+//   Open Google Maps → right-click your location → copy the lat/lon shown.
+const double HOME_LAT =  0.0;   
+const double HOME_LON =  0.0;   
