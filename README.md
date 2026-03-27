@@ -78,7 +78,7 @@ arduino-cli compile --fqbn esp32:esp32:esp32 --libraries ~/Documents/Arduino/lib
 arduino-cli upload --fqbn esp32:esp32:esp32 --port /dev/cu.usbserial-XXXXX --upload-property upload.speed=115200 flight_tracker
 ```
 
-Replace `/dev/cu.usbserial-XXXXX` with your CYD's serial port (`/dev/ttyUSB0` on Linux).
+Replace `/dev/cu.usbserial-XXXXX` with your CYD's serial port (`/dev/ttyUSB0` on Linux).  Update --libraries path for your installation.
 
 ## Project Structure
 
